@@ -5,7 +5,7 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Blowfish"
+title = "SPCC Computer Club"
 # logo = "img/logo.png"
 description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
@@ -13,24 +13,24 @@ description = "My awesome website"
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Your name here"
+  name = "SPCC Computer Club"
   image = "img/blowfish_logo.png"
-  headline = "I'm only human"
+  headline = "The Official SPCC Computer Club Website"
   bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
+  links = [
+     { email = "mailto:spcccomputerclub2223@gmail.com" },
+  #   { link = "" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
   #   { blogger = "https://username.blogspot.com/" },
   #   { codepen = "https://codepen.io/username" },
   #   { dev = "https://dev.to/username" },
-  #   { discord = "https://discord.gg/invitecode" },
+     { discord = "https://discord.gg/2kjKyaEB" },
   #   { dribbble = "https://dribbble.com/username" },
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+     { github = "https://github.com/spcccomputerclub" }
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
@@ -59,4 +59,4 @@ dateFormat = "2 January 2006"
   #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
-  # ]
+  ]

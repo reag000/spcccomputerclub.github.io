@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on SPCC Computer Club 22-23</title>
+    <title>Posts on </title>
     <link>https://spcccomputerclub.github.io/posts/</link>
-    <description>Recent content in Posts on SPCC Computer Club 22-23</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Sat, 17 Sep 2022 10:24:41 +0800</lastBuildDate><atom:link href="https://spcccomputerclub.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello_World</title>
@@ -13,7 +12,7 @@
       <pubDate>Sat, 17 Sep 2022 10:24:41 +0800</pubDate>
       
       <guid>https://spcccomputerclub.github.io/posts/hello_world/</guid>
-      <description>Nothing</description>
+      <description>Hello World Hello, World! Everyone~!</description>
     </item>
     
   </channel>
