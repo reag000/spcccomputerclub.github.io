@@ -58,5 +58,4 @@ Suppose $A > 0$, the intersection of two rectangles $a$ and $b$ is a rectangle d
 
 - [White Sheet](https://codeforces.com/contest/1216/problem/C): [Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/blob/main/src/calendar/cp/white_sheet.py)
 
-- [Two Tables](https://codeforces.com/problemset/problem/1555/B): [Source Code]()
-
+- [Two Tables](https://codeforces.com/problemset/problem/1555/B): [Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/blob/main/src/calendar/cp/two_tables.py)
