@@ -50,3 +50,13 @@ def r_intersection_area(r1, r2):
 
 Suppose $A > 0$, the intersection of two rectangles $a$ and $b$ is a rectangle defined by $(max(x_{a1}, x_{b1}), max(y_{a1}, y_{b1}))$ and $(min(x_{a2}, x_{b2}), min(y_{a2}, y_{b2}))$, the bottom-left and top-right points.
 
+## Problems
+
+- [Blocked Billboard](http://www.usaco.org/index.php?page=viewproblem2&cpid=759): [Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/blob/main/src/calendar/cp/blocked_billboard.py)
+
+- [Blocked Billboard 2](http://www.usaco.org/index.php?page=viewproblem2&cpid=783): [Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/blob/main/src/calendar/cp/blocked_billboard2.py)
+
+- [White Sheet](https://codeforces.com/contest/1216/problem/C): [Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/blob/main/src/calendar/cp/white_sheet.py)
+
+- [Two Tables](https://codeforces.com/problemset/problem/1555/B): [Source Code]()
+
