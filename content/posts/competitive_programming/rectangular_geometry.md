@@ -1,11 +1,11 @@
 ---
-title: "Rectangular Geometry"
+title: "Analytic Rectangular Geometry"
+description: "Represent rectangles analytically and find area of intersection of rectangles"
 date: 2022-09-23T20:37:23+08:00
 draft: false
 math: true
+tags: ["elementary", "geometry"]
 ---
-
-# Rectangular Geometry
 
 ## Rectangle Object
 

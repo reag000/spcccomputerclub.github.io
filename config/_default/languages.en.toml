@@ -8,7 +8,7 @@ rtl = false
 title = "SPCC Computer Club"
 # logo = "img/logo.png"
 description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "Copy, _right?_ :thinking_face: © 2022 SPCC Computer Club"
 
 dateFormat = "2 January 2006"
 
