@@ -7,7 +7,7 @@ rtl = false
 
 title = "SPCC Computer Club"
 # logo = "img/logo.png"
-description = "My awesome website"
+description = "The Official SPCC Computer Club Website"
 copyright = "Copy, _right?_ :thinking_face: © 2022 SPCC Computer Club"
 
 dateFormat = "2 January 2006"
@@ -16,7 +16,7 @@ dateFormat = "2 January 2006"
   name = "SPCC Computer Club"
   image = "img/blowfish_logo.png"
   headline = "The Official SPCC Computer Club Website"
-  bio = "A little bit about you"
+  bio = "the best club in spcc"
   links = [
      { email = "mailto:spcccomputerclub2223@gmail.com" },
   #   { link = "" },
