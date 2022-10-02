@@ -57,6 +57,34 @@ $$
 csch(x) = \frac{1}{\sinh(x)}
 $$
 
+### Derivatives of Hyperbolic Functions
+
+From the definitions of hyperbolic functions and by basic differentiation rules:
+
+$$
+\frac{d}{dx}(\cosh(x)) = \sinh(x)
+$$
+
+$$
+\frac{d}{dx}(\sinh(x)) = \cosh(x)
+$$
+
+$$
+\frac{d}{dx}(\tanh(x)) = sech(x)
+$$
+
+$$
+\frac{d}{dx}(\coth(x)) = -csch(x)
+$$
+
+$$
+\frac{d}{dx}(sech(x)) = -\tanh(x)sech(x)
+$$
+
+$$
+\frac{d}{dx}(csch(x)) = -\coth(x)csch(x)
+$$
+
 ## Important Identities Related to Hyperbolic Functions
 
 By definition:
@@ -125,3 +153,62 @@ $$
 \sinh^2(x) = \frac{\cosh(2x) - 1}{2}
 $$
 
+## Inverse Hyperbolic Functions
+
+Let $y = \cosh^{-1}(x)$, then $x = \cosh(y)$ and by definition:
+
+$$
+e^y = \cosh(y) + \sinh(y) = x + \sqrt{x^2 - 1})
+$$
+
+We take the logarithm of both sides, then:
+
+$$
+\cosh^{-1}(x) = \ln(x + \sqrt{x^2 - 1})
+$$
+
+Similarly, we have:
+
+$$
+\sinh^{-1}(x) = \ln(x + \sqrt{x^2 + 1})
+$$
+
+$$
+\tanh^{-1}(x) = \frac{1}{2}\ln(\frac{1 + x}{1 - x})
+$$
+
+$$
+\coth^{-1}(x) = \frac{1}{2}\ln(\frac{x + 1}{x - 1})
+$$
+
+$$
+sech^{-1}(x) = \ln(\frac{1 + \sqrt{1 - x^2}}{x})
+$$
+
+$$
+csch^{-1}(x) = \ln(\frac{1 + \sqrt{1 + x^2}}{x})
+$$
+
+### Derivatives of Inverse Trigonometric Functions
+
+With the usual techniques of diffrentiating inverse functions, we have:
+
+$$
+\frac{d}{dx}(\cosh^{-1}(x)) = \frac{1}{\sqrt{x^2 - 1}}
+$$
+
+$$
+\frac{d}{dx}(\sinh^{-1}(x)) = \frac{1}{\sqrt{x^2 + 1}}
+$$
+
+$$
+\frac{d}{dx}(\tanh^{-1}(x)) = \frac{d}{dx}(\coth^{-1}(x)) = \frac{1}{1 - x^2}
+$$
+
+$$
+\frac{d}{dx}(sech^{-1}(x)) = -\frac{1}{x\sqrt{1 - x^2}}
+$$
+
+$$
+\frac{d}{dx}(sech^{-1}(x)) = -\frac{1}{x\sqrt{1 + x^2}}
+$$
