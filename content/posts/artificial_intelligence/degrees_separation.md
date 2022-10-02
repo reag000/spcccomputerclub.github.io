@@ -9,7 +9,7 @@ tags: ["AI", "DFS/ BFS", "Searching Algorithms"]
 
 [CS50's Original Page](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)
 
-[Source Code](https://github.com/me50/spcccomputerclub/tree/main/blob/ai50/projects/2020/x/degrees)
+[Source Code](https://github.com/spcccomputerclub/spcccomputerclub.github.io/src/ai/cs50_aipy/degrees)
 
 ## Problem Statement
 
