@@ -1,7 +1,9 @@
 n = int(input())
 xy = []
 x = y = 0
-m = 101
+mn = 101
+k = 0
+xy.append((0, 0))
 for _ in range(n):
     s = input().split()
     c, m = s[0], int(s[1])
@@ -11,14 +13,16 @@ for _ in range(n):
     elif c == 'E': ox = 1
     elif c == 'W': ox = -1
     for i in range(m):
+        k += 1
         x += ox
         y += oy
         c = (x, y)
         if c in xy:
             for j in range(len(xy)-1, -1, -1):
                 if xy[j] == c:
-                    m = min(m, _-j)
+                    mn = min(mn, k-j)
                     break
         xy.append((x, y))
+    ox = oy = 0
         
-print(m)
+print(mn)
