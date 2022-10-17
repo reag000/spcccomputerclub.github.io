@@ -1,11 +1,10 @@
 n = int(input())
-pi = list(map(int, input().split()))
+flowers = list(map(int, input().split()))
 cnt = 0
 for i in range(n):
-    sum = 0
-    for j in range(i, n):
-        sum += pi[j]
-        for k in range(i, j+1):
-            if pi[k] == sum:
-                cnt += 1
+    for j in range(i+1, n+1):
+        slice = flowers[i:j]
+        avg = sum(slice)/(j-i)
+        if avg in slice:
+            cnt += 1
 print(cnt)

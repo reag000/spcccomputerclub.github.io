@@ -97,7 +97,7 @@ $$
 \cosh(x) - \sinh(x) = e^{-x}
 $$
 
-And hence:
+And hence the Pythagorean hyperbolic identity:
 
 $$
 \cosh^2(x) - \sinh^2(x) = 1
@@ -113,7 +113,7 @@ $$
 \coth^2(x) - 1 = csch^2(x)
 $$
 
-It is easy to verify the following:
+It is easy to verify the following the sum and difference identities:
 
 $$
 \sinh(x \pm y) = \sinh(x)\cosh(y) \pm \cosh(x)\sinh(y)
@@ -127,7 +127,7 @@ $$
 \tanh(x \pm y) = \frac{\tanh(x) \pm \tanh(y)}{1 \pm \tanh(x)\tanh(y)}
 $$
 
-And as a consequence:
+And as a consequence the double argument identities:
 
 $$
 \sinh(2x) = 2\sinh(x)\sinh(y)
