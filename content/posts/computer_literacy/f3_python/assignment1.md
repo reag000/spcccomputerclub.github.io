@@ -230,5 +230,3 @@ Strings can be concatenated (joined together) with the `+` operator:
 ```
 
 [![string_concatenate](https://i.im.ge/2022/10/09/1GhLhG.string-concatenate.png)](https://im.ge/i/1GhLhG)
-
-Test
