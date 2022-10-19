@@ -2,7 +2,7 @@
 title: "Hyperbolic Functions"
 description: "Definition of hyperbolic functions and their inverse, and some related identities"
 date: 2022-09-29T21:23:06+08:00
-draft: false
+draft: true
 math: true
 tags: ["calculus"]
 ---

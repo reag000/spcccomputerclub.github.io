@@ -1,7 +1,7 @@
 ---
 title: "Serge Lang Algebra: Groups: Monoid"
 date: 20x22-10-09T21:00:26+08:00
-draft: false
+draft: true
 math: true
 ---
 

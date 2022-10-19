@@ -2,7 +2,7 @@
 title: "Even and Odd Functions"
 description: "All properties and theorems regarding even and odd functions"
 date: 2022-10-01T22:49:04+08:00
-draft: false
+draft: true
 math: true
 tags: ["function", "calculus"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Quadratic Equation Problems"
 date: 2022-10-11T20:08:54+08:00
-draft: false
+draft: true
 math: true
 ---
 

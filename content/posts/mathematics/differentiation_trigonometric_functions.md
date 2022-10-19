@@ -1,7 +1,7 @@
 ---
 title: "Differentiation of Trigonometric Functions"
 date: 2022-10-10T11:09:34+08:00
-draft: false
+draft: true
 math: true
 ---
 
