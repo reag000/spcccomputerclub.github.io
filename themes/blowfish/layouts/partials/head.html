@@ -1,8 +1,8 @@
+{{ if .Page.Params.math }}
+    {{ partial "katex.html" . }}
+{{ end }}
 <head>
   <meta charset="utf-8" />
-  {{ if .Page.Params.math }}
-    {{ partial "katex.html" . }}
-  {{ end }}
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
   <meta http-equiv="content-language" content="{{ . }}" />
   {{ end }}
@@ -124,7 +124,6 @@
   {{ if templates.Exists "partials/extend-head.html" }}
   {{ partialCached "extend-head.html" .Site }}
   {{ end }}
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   
   {{/* Firebase */}}
   {{ with $.Site.Params.firebase }}

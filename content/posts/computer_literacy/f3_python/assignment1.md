@@ -3,6 +3,7 @@ title: "F3 CL Python Assignment 1: Introduction to Python"
 date: 2022-10-07T14:30:06+08:00
 draft: false
 math: true
+tags: ["python", "computer-literacy"]
 ---
 
 ## What is Python? Why Python?

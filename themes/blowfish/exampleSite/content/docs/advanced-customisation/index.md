@@ -5,6 +5,8 @@ draft: false
 description: "Learn how to build Blowfish manually."
 slug: "advanced-customisation"
 tags: ["advanced", "css", "docs"]
+series: ["Documentation"]
+series_order: 13
 ---
 
 There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.
@@ -54,6 +56,37 @@ Use one of the existing theme stylesheets as a template. You are free to define 
 Sometimes you need to add a custom style to style your own HTML elements. Blowfish provides for this scenario by allowing you to override the default styles in your own CSS stylesheet. Simply create a `custom.css` file in your project's `assets/css/` folder.
 
 The `custom.css` file will be minified by Hugo and loaded automatically after all the other theme styles which means anything in your custom file will take precedence over the defaults.
+
+### Using additional fonts
+
+Blowfish allows you to easily change the font for your site. After creating a `custom.css` file in your project's `assets/css/` folder, place you font file inside a `fonts` folder withing the `static` root folder. 
+
+```shell
+.
+├── assets
+│   └── css
+│       └── custom.css
+...
+└─── static
+    └── fonts
+        └─── font.ttf
+
+```
+
+This makes the font available to the website. Now, the font can just import it in your `custom.css` and replaced wherever you see fit. The example below shows what replacing the font for the entire `html` would look like.
+
+```css
+@font-face {
+    font-family: font;
+    src: url('/fonts/font.ttf');
+}
+
+html {
+    font-family: font;
+}
+```
+
+
 
 ### Adjusting the font size
 
