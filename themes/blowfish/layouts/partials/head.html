@@ -1,6 +1,3 @@
-{{ if .Page.Params.math }}
-    {{ partial "katex.html" . }}
-{{ end }}
 <head>
   <meta charset="utf-8" />
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
