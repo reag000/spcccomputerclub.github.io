@@ -67,7 +67,7 @@ This method is the quickest and easiest for keeping the theme up-to-date. Hugo u
 
    ```toml
    [[imports]]
-   path = "github.com/nunocoracao/blowfish/v2"
+   path = "github.com/nunocoracao/blowfish"
    ```
 
 4. Start your server using `hugo server` and the theme will be downloaded automatically.
