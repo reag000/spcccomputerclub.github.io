@@ -6,6 +6,8 @@ math: true
 tags: ["python", "computer-literacy"]
 ---
 
+{{< lead >}} An Introduction to Python: A Powerful Programming Language {{< /lead >}}
+
 ## What is Python? Why Python?
 
 ### Powerful
