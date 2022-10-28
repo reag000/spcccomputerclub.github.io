@@ -1,9 +1,8 @@
 ---
 title: "F3 CL Python Assignment 4: Lists"
-date: 
-draft: true
-math: false
-tags: ["computer-literacy"] ["python"]
+date: 2022-10-28T13:32:40+08:00
+draft: false
+tags: ["computer-literacy", "python"]
 ---
 
 {{< lead >}} /*List: the most used complex data type in python*/ {{< /lead >}}
